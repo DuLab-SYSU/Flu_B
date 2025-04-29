@@ -13,3 +13,5 @@ Code and data needed to reproduce the results in article "Unraveling the mechani
 ./flu_b_ci.py was used to determine the 95% CI of simulated cases data
 
 All scripts with the command suffix were used to run the corresponding above scripts.
+
+./data includes the related dataset used in the corresponding scripts in ./code folder or the results.
