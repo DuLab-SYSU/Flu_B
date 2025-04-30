@@ -37,19 +37,7 @@ for param in list_params:
 
 # set params
 N_simulations = 1000 # num of samples
-
-param_means = np.array([dict_params['w_v'], dict_params['w_y'], dict_params['cv'], dict_params['cy'],
-                        dict_params['tv_0'], dict_params['ty_0'], dict_params['r']])
-param_stds = np.array([dict_params_sd['w_v'], dict_params_sd['w_y'], dict_params_sd['cv'], dict_params_sd['cy'],
-                        dict_params_sd['tv_0'], dict_params_sd['ty_0'], dict_params_sd['r']])
-num_params = len(param_means)  # num of params
-
-# sampling（~U(0,1)）
-sampler = qmc.LatinHypercube(d=num_params)  
-lhs_samples = sampler.random(n=N_simulations)
-
-# tanssfer uniform to normal distribution
-param_samples = norm.ppf(lhs_samples, loc=param_means, scale=param_stds)  # 逐维映射
+'''We will upload the complete code here once the manuscript is officially published'''
 
 # tranfer float to str type
 samples = param_samples.tolist()
