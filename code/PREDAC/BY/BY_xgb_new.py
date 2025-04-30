@@ -44,48 +44,10 @@ x_resampled, y_resampled = SMOTE(random_state=seed).fit_resample(features,df_BY[
 x_train, x_test, y_train, y_test = train_test_split(x_resampled, y_resampled, test_size = 0.2,random_state=seed)
 
 #tune params
-other_params = {'learning_rate':np.arange(0.01,0.2,0.01),
-                'n_estimators':list(range(10,1000,10)),
-                'max_depth':list(range(1,15,1)),
-                'min_child_weight':list(range(1,15,1)),
-                'gamma':np.arange(0,1,0.1),
-                'subsample':np.arange(0.5,1,0.1),
-                'colsample_bytree':np.arange(0.5,1,0.1),
-                # 'objective':'binary:logistic',
-                'reg_alpha':[0,1e-5, 1e-2, 0.1, 1,2,3,100],
-                'reg_lambda':[1e-5, 1e-2, 0.1, 1,2,3,100],
-                # 'scale_pos_weight':1,
-                # 'n_jobs':23
-                }
-
-
-start = time.time()
-cv = KFold(n_splits=5,shuffle=True, random_state=seed).split(x_train)
-model = XGBClassifier(random_state=seed)
-# optimized_xgb = GridSearchCV(estimator=model, param_grid =param_test1, scoring='roc_auc',n_jobs=23, cv=cv)
-optimized_xgb = RandomizedSearchCV(estimator=model, param_distributions=other_params, n_iter=2000,scoring='roc_auc',n_jobs=30, cv=cv,random_state=seed)
-optimized_xgb.fit(x_train,y_train)
-# print(optimized_xgb.grid_scores_)
-print(optimized_xgb.best_params_)
-print(optimized_xgb.best_score_)
-end = time.time()
-print("The runing time of this process is {}min".format((end-start)/60))
+'''We will upload the complete code here once the manuscript is officially published'''
 
 # best params tuned by above steps
-best_params = {'learning_rate':0.12,
-                'n_estimators':450,
-                'max_depth':6,
-                'min_child_weight':2,
-                'gamma':0.0,
-                'subsample':0.6,
-                'colsample_bytree':0.5,
-                # 'objective':'binary:logistic',
-                'reg_alpha':3,
-                'reg_lambda':3,
-                # 'scale_pos_weight':1,
-                # 'n_jobs':23
-                }
-
+'''We will upload the complete code here once the manuscript is officially published'''
 
 # train XGBoost model on training dataset
 clf = XGBClassifier(**best_params,random_state=seed)
