@@ -70,7 +70,9 @@ for num, pos in dict_copy1.items():
 
 # define the num of different N-Gly sites of each two strains
 def gly_diff(vir1,vir2):
-    '''We will upload the complete code here once the manuscript is officially published'''
+    list1 = vir_dict[vir1] 
+    list2 = vir_dict[vir2] 
+    num_diff = len(list1) + len(list2) - (2*len(set(list1)&set(list2)))
     return num_diff
 
 #import model data

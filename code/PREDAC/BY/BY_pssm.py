@@ -183,7 +183,36 @@ print(pssm.shape)
 def pssm_diff(list_index, seq1, seq2):
     '''calculate the sum score of PSSM for each epitope'''
 
-    '''We will upload the complete code here once the manuscript is officially published'''
+    pssm_score = 0
+    for index in list_index:
+
+        if seq1[index] == seq2[index]:
+            continue
+
+        if seq1[index] != seq2[index]:
+
+            if (seq1[index] != '-') & (seq2[index] != '-'):
+                score = abs(pssm[index, list_aa.index(seq1[index])] - pssm[index, list_aa.index(seq2[index])])
+                pssm_score = pssm_score + score
+                continue
+
+            if (seq1[index] == '-') & (seq2[index] != '-'):
+                list_score = []
+                for aa in list_aa:
+                    aa_score = abs(pssm[index, list_aa.index(aa)] - pssm[index, list_aa.index(seq2[index])])
+                    list_score.append(aa_score)
+                score = max(list_score)
+                pssm_score = pssm_score + score
+                continue
+
+            if (seq1[index] != '-') & (seq2[index] == '-'):
+                list_score = []
+                for aa in list_aa:
+                    aa_score = abs(pssm[index, list_aa.index(seq1[index])] - pssm[index, list_aa.index(aa)])
+                    list_score.append(aa_score)
+                score = max(list_score)
+                pssm_score = pssm_score + score
+                continue
 
     return pssm_score
 

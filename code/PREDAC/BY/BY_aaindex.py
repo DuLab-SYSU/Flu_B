@@ -25,7 +25,39 @@ pandarallel.initialize(nb_workers=22,progress_bar=True)
 
 def AAindex(str1,str2):
     '''calculate the physical chemical properties of amino acids（aaindex）'''
-    '''We will upload the complete code here once the manuscript is officially published'''
+    list_aaindex = []
+    for s1, s2 in zip(str1, str2):
+
+        if s1 != s2:
+            if (s1 != '-') & (s2 != '-'):
+                aaindex_change = abs(aaindex_dict[s1]-aaindex_dict[s2])
+                list_aaindex.append(aaindex_change)
+                continue
+
+            if (s1 == '-') & (s2 != '-'):
+                list_gap1 = []
+                for value in aaindex_dict.values():
+                    list_gap1.append(abs(value-aaindex_dict[s2]))
+                list_aaindex.append(max(list_gap1))
+                continue
+
+            if (s1 != '-') & (s2 == '-'):
+                list_gap2 = []
+                for value in aaindex_dict.values():
+                    list_gap2.append(abs(aaindex_dict[s1]-value))
+                list_aaindex.append(max(list_gap2))
+                continue
+        else:
+            pass
+
+    if len(list_aaindex) == 0:
+        ave_aaindex = 0
+    elif len(list_aaindex) <= 3:
+         ave_aaindex = sum(list_aaindex)/len(list_aaindex)
+    elif len(list_aaindex) >= 3:
+        list_aaindex.sort(reverse=True)
+        list_aaindex = list_aaindex[:3]
+        ave_aaindex = sum(list_aaindex)/len(list_aaindex)
 
     return ave_aaindex
 
