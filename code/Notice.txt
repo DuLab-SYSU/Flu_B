@@ -1,9 +1,0 @@
-Notice
-
-This code repository provides the basic framework used in our study "Unraveling the mechanism behind the potential extinction of the B/Yamagata lineage of influenza B viruses."
-
-Please note that key parts of the code have been intentionally removed, and only the structural components are retained at this stage. This is because the manuscript has not yet been published.
-
-The complete and functional code, including all core components, will be made publicly available after the publication of the article.
-
-Thank you for your understanding.
