@@ -1,0 +1,652 @@
+strain,location,collection_date,ID,serum,antigenic_distance,Tree_model_log2,Subs_model_log2
+B/Madrid/15046/2014,Spain,2014-12-15,EPI557944,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Madrid/052/2015,Spain,2014-12-30,EPI557942,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/CastillaLaMancha/2083/2014,Spain,2014-12-11,EPI555197,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/CastillaLaMancha/2083/2014,Spain,2014-12-11,EPI555197,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/CastillaLaMancha/2083/2014,Spain,2014-12-11,EPI555197,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Clermont-Ferrand/2467/2014,France,2014-12-17,EPI556940,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Bretagne/2216/2014,France,2014-11-24,EPI555191,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Bretagne/2216/2014,France,2014-11-24,EPI555191,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Bretagne/2216/2014,France,2014-11-24,EPI555191,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Algiers/09/2014,Algeria,2014-10-12,EPI562322,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Algiers/09/2014,Algeria,2014-10-12,EPI562322,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Bangkok/42/2015,Thailand,2015-06-06,EPIHA,B/Massachusetts/02/2012,3.1,3.05,2.2
+B/Malaysia/943/2015,Malaysia,2015-04-01,EPIHA,B/Massachusetts/02/2012,2.9,2.85,2.2
+B/Ukraine/6/2015,Ukraine,2014-12-30,EPI557966,B/Massachusetts/02/2012,2.9,2.85,2.2
+B/Ghom/90199/2014,Iran,2014-12-28,EPI556946,B/Massachusetts/02/2012,2.9,2.85,2.2
+B/Centre/2213/2014,France,2014-11-25,EPI555199,B/Massachusetts/02/2012,3.5,3.45,2.2
+B/Ukraine/6/2015,Ukraine,2014-12-30,EPI557966,B/Massachusetts/02/2012,2.9,2.85,2.2
+B/Paris/2052/2014,France,2014-10-27,EPI555213,B/Massachusetts/02/2012,3.5,3.45,2.2
+B/Switzerland/10295792/2014,Switzerland,2014-03-27,EPI530731,B/Massachusetts/02/2012,2.9,2.85,2.2
+B/Centre/2213/2014,France,2014-11-25,EPI555199,B/Massachusetts/02/2012,3.5,3.45,2.2
+B/Paris/2052/2014,France,2014-10-27,EPI555213,B/Massachusetts/02/2012,3.5,3.45,2.2
+B/Ukraine/497/2014,Ukraine,2014-12-20,EPI557964,B/Massachusetts/02/2012,3.2,3.11,2.2
+B/Ukraine/497/2014,Ukraine,2014-12-20,EPI557964,B/Massachusetts/02/2012,3.2,3.11,2.2
+B/SouthAfrica/4380/2014,South Africa,2014-06-06,EPI539452,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/SouthAfrica/4380/2014,South Africa,2014-06-06,EPI539452,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Tunisia/14192/2014,Tunisia,2014-12-11,EPI562361,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/SouthAfrica/4380/2014,South Africa,2014-06-06,EPI539452,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Lisboa/12/2014,Portugal,2014-12-22,EPI558616,B/Massachusetts/02/2012,3.0,2.88,2.2
+B/Lisboa/1/2015,Portugal,2015-01-04,EPI557934,B/Massachusetts/02/2012,3.0,2.88,2.2
+B/Lisboa/1/2015,Portugal,2015-01-04,EPI557934,B/Massachusetts/02/2012,3.0,2.88,2.2
+B/Netherlands/382/2014,Netherlands,2014-10-16,EPI556956,B/Massachusetts/02/2012,2.4,2.34,1.92
+B/Jordan/20555/2014,Jordan,2014-12-17,EPI562343,B/Massachusetts/02/2012,2.4,2.34,1.92
+B/Jordan/20555/2014,Jordan,2014-12-17,EPI562343,B/Massachusetts/02/2012,2.4,2.34,1.92
+B/Lyon/2455/2014,France,2014-12-16,EPI556952,B/Massachusetts/02/2012,3.0,2.88,2.2
+B/Jordan/20555/2014,Jordan,2014-12-17,EPI562343,B/Massachusetts/02/2012,2.4,2.34,1.92
+B/Jordan/20555/2014,Jordan,2014-12-17,EPI562343,B/Massachusetts/02/2012,2.4,2.34,1.92
+B/Uralsk/155/2015,Russia,2015-02-13,EPIHA,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Finland/471/2014,Finland,2014-12-15,EPI562338,B/Massachusetts/02/2012,2.5,2.42,1.92
+B/Uralsk/155/2015,Russia,2015-02-13,EPIHA,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/2558/2015,Norway,2015-07-01,EPIHA,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Uralsk/155/2015,Russia,2015-02-13,EPIHA,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Paris/2058/2014,France,2014-09-25,EPI555215,B/Massachusetts/02/2012,3.1,3.07,2.2
+B/Switzerland/457/2014,Switzerland,2014-12-17,EPI557958,B/Massachusetts/02/2012,3.1,3.07,2.2
+B/Lisboa/7/2014,Portugal,2014-12-01,EPI558608,B/Massachusetts/02/2012,3.1,3.07,2.2
+B/Bayern/1/2014,Germany,2014-02-10,EPI515237,B/Massachusetts/02/2012,3.1,3.07,2.2
+B/Bayern/1/2014,Germany,2014-02-10,EPI515237,B/Massachusetts/02/2012,3.1,3.07,2.2
+B/Bayern/1/2014,Germany,2014-02-10,EPI515237,B/Massachusetts/02/2012,3.1,3.07,2.2
+B/SaoPaulo/3-36401/2015,Brazil,2015-08-06,EPIHA,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/England/522/2014,United Kingdom,2014-11-14,EPI555203,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/SaoPaulo/3-36401/2015,Brazil,2015-08-06,EPIHA,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Switzerland/9943612/2014,Switzerland,2014-01-22,EPI530733,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/SouthAustralia/22/2015,Australia,2015-05-04,EPIHA,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Switzerland/9943612/2014,Switzerland,2014-01-22,EPI530733,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Stockholm/5/2014,Sweden,2014-04-21,EPI520345,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Stockholm/5/2014,Sweden,2014-04-21,EPI520345,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Centre/1663/2014,France,2014-05-12,EPI540639,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Stockholm/5/2014,Sweden,2014-04-21,EPI520345,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Latvia/12-016677/2014,Latvia,2014-12-06,EPI557930,B/Massachusetts/02/2012,2.6,2.53,2.2
+B/Latvia/12-016677/2014,Latvia,2014-12-06,EPI557930,B/Massachusetts/02/2012,2.6,2.53,2.2
+B/Latvia/12-043751/2014,Latvia,2014-12-16,EPI557932,B/Massachusetts/02/2012,2.6,2.53,2.2
+B/Latvia/12-043751/2014,Latvia,2014-12-16,EPI557932,B/Massachusetts/02/2012,2.6,2.53,2.2
+B/Anhui-Guichi/1736/2014,China,2014-11-03,EPI554664,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/SantaFe/1149/2014,U S A,2014-07-02,EPI543214,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Anhui-Guichi/1736/2014,China,2014-11-03,EPI554664,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Anhui-Guichi/1736/2014,China,2014-11-03,EPI554664,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Anhui-Guichi/1736/2014,China,2014-11-03,EPI554664,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/WAKAYAMA/130/2014,Japan,2014-09-26,EPI554544,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Lisboa/10/2014,Portugal,2014-12-18,EPI557936,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/WAKAYAMA/130/2014,Japan,2014-09-26,EPI554544,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Lisboa/10/2014,Portugal,2014-12-18,EPI557936,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/England/515/2014,United Kingdom,2014-10-22,EPI555201,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Madagascar/3124/2014,Madagascar,2014-10-22,EPI562347,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Valladolid/1/2015,Spain,2015-01-08,EPI562366,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Valladolid/1/2015,Spain,2015-01-08,EPI562366,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Greece/8/2014,Greece,2014-12-30,EPI557918,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/HongKong/3787/2014,Hong Kong,2014-11-20,EPI556962,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/3322/2014,Norway,2014-12-15,EPI574834,B/Massachusetts/02/2012,3.6,3.5,2.2
+B/Norway/3085/2014,Norway,2014-11-24,EPI555207,B/Massachusetts/02/2012,3.6,3.5,2.2
+B/Norway/3136/2014,Norway,2014-12-07,EPI574832,B/Massachusetts/02/2012,3.6,3.5,2.2
+B/Norway/3078/2014,Norway,2014-11-24,EPI553167,B/Massachusetts/02/2012,3.6,3.5,2.2
+B/Norway/3078/2014,Norway,2014-11-24,EPI553167,B/Massachusetts/02/2012,3.6,3.5,2.2
+B/Norway/2011/2014,Norway,2014-06-19,EPI541113,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/2011/2014,Norway,2014-06-19,EPI541113,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/2011/2014,Norway,2014-06-19,EPI541113,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/2011/2014,Norway,2014-06-19,EPI541113,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Jordan/30244/2014,Jordan,2014-05-14,EPI552049,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Firenze/1/2014,Italy,2014-01-07,EPI502569,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/3238/2014,Norway,2014-12-19,EPI562355,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/PaisVasco/1978/2014,Spain,2014-10-21,EPI555211,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Egypt/ALX6527/2014,Egypt,2014-05-01,EPI549762,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Roma/4/2014,Italy,2014-12-30,EPI557954,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/3229/2013,Norway,2013-12-13,EPI497700,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/1877/2014,Norway,2014-05-21,EPI541111,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/1877/2014,Norway,2014-05-21,EPI541111,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Norway/1877/2014,Norway,2014-05-21,EPI541111,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Thuringen/3/2014,Germany,2014-11-08,EPI555221,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/HongKong/3423/2014,Hong Kong,2014-06-05,EPI536451,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/HongKong/3419/2014,Hong Kong,2014-06-04,EPI536449,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Iceland/78/2014,Iceland,2014-05-28,EPI536459,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Paris/2535/2013,France,2013-12-28,EPI500371,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/LaReunion/2047/2014,Reunion,2014-05-30,EPI540655,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Ireland/13M95631/2013,Ireland,2013-11-21,EPI500367,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Ireland/13M95631/2013,Ireland,2013-11-21,EPI500367,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Ireland/13M95631/2013,Ireland,2013-11-21,EPI500367,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Ireland/13M95631/2013,Ireland,2013-11-21,EPI500367,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Ireland/13M95631/2013,Ireland,2013-11-21,EPI500367,B/Massachusetts/02/2012,2.4,2.34,2.2
+B/Navarra/15036/2014,Spain,2014-12-29,EPI557948,B/Massachusetts/02/2012,2.1,2.04,2.09
+B/Moscow/10/2014,Russia,2014-03-21,EPI539440,B/Massachusetts/02/2012,2.1,2.04,2.09
+B/Utah/09/2014,U S A,2014-05-29,EPI538119,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Switzerland/10294006/2014,Switzerland,2014-03-28,EPI530729,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Utah/09/2014,U S A,2014-05-29,EPI538119,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Sassari/9/2014,Italy,2014-02-13,EPI530725,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Sassari/9/2014,Italy,2014-02-13,EPI530725,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Sassari/9/2014,Italy,2014-02-13,EPI530725,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Utah/09/2014,U S A,2014-05-29,EPI538119,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Utah/09/2014,U S A,2014-05-29,EPI538119,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Sarajevo/513/2013,Bosnia Herzegovina,2013-12-18,EPI502602,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Lyon/3021/2013,France,2013-12-16,EPI502573,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Catalonia/2151450NS/2014,Spain,2014-01-21,EPI515259,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/FrancheComte/2166/2013,France,2013-11-04,EPI500355,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/FrancheComte/2166/2013,France,2013-11-04,EPI500355,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/FrancheComte/2166/2013,France,2013-11-04,EPI500355,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Blida/143/2012,Algeria,2012-11-23,EPI431322,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/FrancheComte/2166/2013,France,2013-11-04,EPI500355,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Lisboa/9/2014,Portugal,2014-12-17,EPI558611,B/Massachusetts/02/2012,2.1,2.0,2.09
+B/Switzerland/016/2014,Switzerland,2014-12-16,EPI557956,B/Massachusetts/02/2012,2.1,2.0,2.09
+B/Switzerland/016/2014,Switzerland,2014-12-16,EPI557956,B/Massachusetts/02/2012,2.1,2.0,2.09
+B/Switzerland/016/2014,Switzerland,2014-12-16,EPI557956,B/Massachusetts/02/2012,2.1,2.0,2.09
+B/Ghana/DILI-15-0011/2015,Ghana,2015-01-06,EPI574770,B/Massachusetts/02/2012,3.0,2.98,2.09
+B/Dnipro/177/2014,Ukraine,2014-02-12,EPI530709,B/Massachusetts/02/2012,3.0,2.98,2.09
+B/Ukraine/6068/2014,Ukraine,2014-02-26,EPI533082,B/Massachusetts/02/2012,3.0,2.98,2.09
+B/Ukraine/6068/2014,Ukraine,2014-02-26,EPI533082,B/Massachusetts/02/2012,3.0,2.98,2.09
+B/Ukraine/6068/2014,Ukraine,2014-02-26,EPI533082,B/Massachusetts/02/2012,3.0,2.98,2.09
+B/Georgia/687/2014,U S A,2014-03-28,EPI530719,B/Massachusetts/02/2012,3.0,2.98,2.09
+B/Georgia/687/2014,U S A,2014-03-28,EPI530719,B/Massachusetts/02/2012,3.0,2.98,2.09
+B/Georgia/687/2014,U S A,2014-03-28,EPI530719,B/Massachusetts/02/2012,3.0,2.98,2.09
+B/Zambia/04-306/2014,Zambia,2014-12-11,EPI562370,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Zambia/06-051/2014,Zambia,2014-10-29,EPI562374,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Zambia/04-309/2014,Zambia,2014-11-15,EPI562372,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Zambia/04-309/2014,Zambia,2014-11-15,EPI562372,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Malatya/301/2014,Turkey,2014-01-16,EPI515279,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/HYOGO/4002/2012,Japan,2012-12-11,EPI413191,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/HYOGO/4002/2012,Japan,2012-12-11,EPI413191,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Guangdong-Xinxin/1823/2014,China,2014-10-08,EPI562692,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/HYOGO/4002/2012,Japan,2012-12-11,EPI413191,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Estonia/74419/2013,Estonia,2013-01-10,EPI431328,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Estonia/74419/2013,Estonia,2013-01-10,EPI431328,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Estonia/74419/2013,Estonia,2013-01-10,EPI431328,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Slovenia/312/2013,Slovenia,2013-01-22,EPI460620,B/Massachusetts/02/2012,2.1,1.99,2.09
+B/Stockholm/14/2012,Sweden,2012-11-04,EPI408083,B/Massachusetts/02/2012,2.8,2.76,2.09
+B/Stockholm/14/2012,Sweden,2012-11-04,EPI408083,B/Massachusetts/02/2012,2.8,2.76,2.09
+B/Taiwan/1367/2012,Taiwan,2012-04-27,EPI387708,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/Taiwan/1367/2012,Taiwan,2012-04-27,EPI387708,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/HongKong/3585/2012,Hong Kong,2012-06-24,EPI392597,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/Johannesburg/3559/2012,South Africa,2012-06-22,EPI406266,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/HongKong/432/2013,Hong Kong,2013-12-11,EPI500359,B/Massachusetts/02/2012,3.2,3.11,2.09
+B/Henan-Nanzhaoling/1406/2013,China,2013-11-02,EPI511862,B/Massachusetts/02/2012,3.2,3.11,2.09
+B/HongKong/424/2013,Hong Kong,2013-12-10,EPI500357,B/Massachusetts/02/2012,3.2,3.11,2.09
+B/Shandong-Mudan/1374/2013,China,2013-11-03,EPI499098,B/Massachusetts/02/2012,2.3,2.19,2.09
+B/Guangxi-Xixiangtang/1311/2013,China,2013-06-17,EPI482855,B/Massachusetts/02/2012,2.3,2.19,2.09
+B/Novosibirsk/1/2012,Russia,2012-02-14,EPI368752,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/Antananarivo/5020/2012,Madagascar,2012-10-23,EPI438731,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/Antananarivo/5020/2012,Madagascar,2012-10-23,EPI438731,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/Novosibirsk/1/2012,Russia,2012-02-14,EPI368752,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/Novosibirsk/1/2012,Russia,2012-02-14,EPI368752,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/Antsirabe/5074/2012,Madagascar,2012-10-23,EPI438733,B/Massachusetts/02/2012,1.9,1.84,2.09
+B/Novosibirsk/1/2012,Russia,2012-02-14,EPI368752,B/Massachusetts/02/2012,1.9,1.88,2.09
+B/Latvia/12-32427p/2012,Latvia,2012-12-03,EPI431354,B/Massachusetts/02/2012,1.9,1.84,2.09
+B/Moramanga/4761/2012,Madagascar,2012-09-26,EPI445961,B/Massachusetts/02/2012,1.9,1.84,2.09
+B/Moramanga/4761/2012,Madagascar,2012-09-26,EPI445961,B/Massachusetts/02/2012,1.9,1.84,2.09
+B/Moramanga/4761/2012,Madagascar,2012-09-26,EPI445961,B/Massachusetts/02/2012,1.9,1.84,2.09
+B/Latvia/12-32427p/2012,Latvia,2012-12-03,EPI431354,B/Massachusetts/02/2012,1.9,1.84,2.09
+B/Estonia/67205/2012,Estonia,2012-04-09,EPI377692,B/Massachusetts/02/2012,2.1,2.03,1.91
+B/England/267/2012,United Kingdom,2012-02-22,EPI377702,B/Massachusetts/02/2012,2.1,2.03,1.91
+B/Denmark/8/2012,Denmark,2012-02-29,EPI379922,B/Massachusetts/02/2012,2.1,2.03,1.91
+B/Denmark/8/2012,Denmark,2012-02-29,EPI379922,B/Massachusetts/02/2012,2.1,2.03,1.91
+B/Berlin/147/2011,Germany,2011-12-01,EPI352423,B/Massachusetts/02/2012,1.7,1.66,1.91
+B/Sichuan-Anyue/139/2011,China,2011-03-02,EPI319624,B/Massachusetts/02/2012,1.7,1.66,1.91
+B/Sichuan-Anyue/139/2011,China,2011-03-02,EPI319624,B/Massachusetts/02/2012,1.7,1.66,1.91
+B/HongKong/765/2011,Hong Kong,2011-06-23,EPI334684,B/Massachusetts/02/2012,1.7,1.66,2.23
+B/HongKong/398/2010,Hong Kong,2010-03-09,EPI271895,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Fujian-Cangshan/1194/2010,China,2010-05-10,EPI293680,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/HongKong/1895/2010,Hong Kong,2010-07-16,EPI279875,B/Massachusetts/02/2012,1.9,1.81,1.71
+B/Ghana/FS-2112/2010,Ghana,2010-04-07,EPI271909,B/Massachusetts/02/2012,1.9,1.81,1.71
+B/TAIWAN/29/2009,Taiwan,2009-04-09,EPI228215,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/DAKAR/02/2014,Senegal,2014-09-29,EPI562334,B/Massachusetts/02/2012,2.5,2.47,2.17
+B/Norway/3044/2013,Norway,2013-11-03,EPI493618,B/Massachusetts/02/2012,2.5,2.47,2.48
+B/Belgium/G901/2012,Belgium,2012-11-28,EPI431316,B/Massachusetts/02/2012,2.5,2.47,2.17
+B/Norway/3044/2013,Norway,2013-11-03,EPI493618,B/Massachusetts/02/2012,2.5,2.47,2.48
+B/Switzerland/7659215/2012,Switzerland,2012-12-21,EPI438788,B/Massachusetts/02/2012,2.5,2.47,2.17
+B/Ghana/ARI1648/2012,Ghana,2012-08-30,EPI417741,B/Massachusetts/02/2012,2.5,2.47,2.17
+B/Ghana/ARI1648/2012,Ghana,2012-08-30,EPI417741,B/Massachusetts/02/2012,2.5,2.47,2.17
+B/Ghana/ARI1648/2012,Ghana,2012-08-30,EPI417741,B/Massachusetts/02/2012,2.5,2.47,2.17
+B/Ghana/ARI1648/2012,Ghana,2012-08-30,EPI417741,B/Massachusetts/02/2012,2.5,2.47,2.17
+B/Ghana/FS-12-831/2012,Ghana,2012-06-26,EPI392571,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Israel/20/2011,Israel,2011-12-20,EPI352844,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Yopougon/GR882/2011,Ivory Coast,2011-09-23,EPI352425,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Yopougon/GR882/2011,Ivory Coast,2011-09-23,EPI352425,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Dakar/08/2011,Senegal,2011-09-16,EPI357722,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Yopougon/GR882/2011,Ivory Coast,2011-09-23,EPI352425,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Dakar/08/2011,Senegal,2011-09-16,EPI357722,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Dakar/08/2011,Senegal,2011-09-16,EPI357722,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Ghana/FS-11-1994/2011,Ghana,2011-11-24,EPI352451,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Ghana/FS-11-1994/2011,Ghana,2011-11-24,EPI352451,B/Massachusetts/02/2012,2.4,2.35,2.17
+B/Cameroon/13V-013/2012,Cameroon,2012-12-20,EPI438761,B/Massachusetts/02/2012,2.5,2.4,1.81
+B/Cameroon/12V-5783/2012,Cameroon,2012-11-26,EPI445927,B/Massachusetts/02/2012,2.5,2.4,1.81
+B/Cameroon/12V-6088/2012,Cameroon,2012-12-04,EPI438753,B/Massachusetts/02/2012,2.5,2.4,1.81
+B/Cameroon/12V-6088/2012,Cameroon,2012-12-04,EPI438753,B/Massachusetts/02/2012,2.5,2.4,1.81
+B/Cameroon/12V-6088/2012,Cameroon,2012-12-04,EPI438753,B/Massachusetts/02/2012,2.5,2.4,1.81
+B/Cameroon/12V-6088/2012,Cameroon,2012-12-04,EPI438753,B/Massachusetts/02/2012,2.5,2.4,1.81
+B/Moscow/93/2012,Russia,2012-11-22,EPI450717,B/Massachusetts/02/2012,2.5,2.4,1.81
+B/Moscow/93/2012,Russia,2012-11-22,EPI450717,B/Massachusetts/02/2012,2.5,2.4,1.81
+B/PaisVasco/284/2012,Spain,2012-11-07,EPI431384,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Cameroon/12V-5637/2012,Cameroon,2012-11-19,EPI438751,B/Massachusetts/02/2012,2.3,2.18,1.81
+B/Cameroon/13V-015/2013,Cameroon,2012-12-27,EPI477343,B/Massachusetts/02/2012,2.3,2.18,1.81
+B/Stockholm/12-00971/2012,Sweden,2012-01-08,EPI357728,B/Massachusetts/02/2012,2.3,2.18,1.81
+B/Stockholm/12-00971/2012,Sweden,2012-01-08,EPI357728,B/Massachusetts/02/2012,2.3,2.18,1.81
+B/Stockholm/12-00971/2012,Sweden,2012-01-08,EPI357728,B/Massachusetts/02/2012,2.3,2.18,1.81
+B/Milano/36/2012,Italy,2012-12-04,EPI431362,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Netherlands/707/2011,Netherlands,2011-11-29,EPI352413,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Milano/16/2012,Italy,2012-03-07,EPI387459,B/Massachusetts/02/2012,3.1,3.02,1.81
+B/Milano/16/2012,Italy,2012-03-07,EPI387459,B/Massachusetts/02/2012,3.1,3.02,1.81
+B/Netherlands/707/2011,Netherlands,2011-11-29,EPI352413,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Netherlands/707/2011,Netherlands,2011-11-29,EPI352413,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Catalonia/S4125/2011,Spain,2011-11-16,EPI345996,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Catalonia/S4125/2011,Spain,2011-11-16,EPI345996,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/HongKong/1127/2011,Hong Kong,2011-10-12,EPI352429,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/HongKong/1127/2011,Hong Kong,2011-10-12,EPI352429,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/HongKong/1127/2011,Hong Kong,2011-10-12,EPI352429,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/HongKong/1127/2011,Hong Kong,2011-10-12,EPI352429,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Johannesburg/5564/2012,South Africa,2012-06-25,EPI406274,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Lyon/68/2011,France,2011-01-05,EPI319381,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Lyon/68/2011,France,2011-01-05,EPI319381,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Lyon/68/2011,France,2011-01-05,EPI319381,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Lyon/68/2011,France,2011-01-05,EPI319381,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Lyon/68/2011,France,2011-01-05,EPI319381,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Stockholm/12/2011,Sweden,2011-02-28,EPI319558,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Stockholm/12/2011,Sweden,2011-02-28,EPI319558,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Stockholm/12/2011,Sweden,2011-02-28,EPI319558,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Stockholm/12/2011,Sweden,2011-02-28,EPI319558,B/Massachusetts/02/2012,1.9,1.82,1.81
+B/Paris/1850/2010,France,2010-11-29,EPI305413,B/Massachusetts/02/2012,1.9,1.82,1.71
+B/NewYork/1241/2010,U S A,2010-08-01,EPI519427,B/Massachusetts/02/2012,1.9,1.82,1.71
+B/NewYork/1241/2010,U S A,2010-08-01,EPI519427,B/Massachusetts/02/2012,1.9,1.82,1.71
+B/Berlin/2/2010,Germany,2010-12-28,EPI305375,B/Massachusetts/02/2012,1.9,1.82,1.71
+B/Berlin/2/2010,Germany,2010-12-28,EPI305375,B/Massachusetts/02/2012,1.9,1.82,1.71
+B/Norway/1165/2012,Norway,2012-04-06,EPI406311,B/Massachusetts/02/2012,1.9,1.82,1.17
+B/Serbia/2095/2011,Serbia,2011-03-15,EPI326173,B/Massachusetts/02/2012,1.9,1.82,1.17
+B/Serbia/1894/2011,Serbia,2011-03-08,EPI326171,B/Massachusetts/02/2012,1.9,1.82,1.17
+B/SRILANKA/5/2011,Sri Lanka,2011-05-10,EPI346063,B/Massachusetts/02/2012,1.9,1.82,1.17
+B/SRILANKA/5/2011,Sri Lanka,2011-05-10,EPI346063,B/Massachusetts/02/2012,1.9,1.82,1.17
+B/SRILANKA/5/2011,Sri Lanka,2011-05-10,EPI346063,B/Massachusetts/02/2012,1.9,1.82,1.17
+B/Latvia/2-70/2011,Latvia,2011-02-01,EPI319369,B/Massachusetts/02/2012,1.9,1.82,1.17
+B/Latvia/2-70/2011,Latvia,2011-02-01,EPI319369,B/Massachusetts/02/2012,1.9,1.82,1.17
+B/England/254/2011,United Kingdom,2011-10-04,EPI346821,B/Massachusetts/02/2012,1.9,1.82,1.71
+B/Indiana/10/2011,U S A,2011-08-24,EPI335756,B/Massachusetts/02/2012,1.9,1.82,1.71
+B/England/254/2011,United Kingdom,2011-10-04,EPI346821,B/Massachusetts/02/2012,1.9,1.82,1.71
+B/Algeria/G486/2010,Algeria,2010-06-06,EPI279851,B/Massachusetts/02/2012,1.9,1.85,1.71
+B/England/170/2010,United Kingdom,2010-12-01,EPI319339,B/Massachusetts/02/2012,1.9,1.85,1.71
+B/England/170/2010,United Kingdom,2010-12-01,EPI319339,B/Massachusetts/02/2012,1.9,1.85,1.71
+B/England/110/2010,United Kingdom,2010-11-11,EPI341988,B/Massachusetts/02/2012,1.9,1.85,1.71
+B/England/170/2010,United Kingdom,2010-12-01,EPI319339,B/Massachusetts/02/2012,1.9,1.85,1.71
+B/England/110/2010,United Kingdom,2010-11-11,EPI341988,B/Massachusetts/02/2012,1.9,1.85,1.71
+B/Arizona/08/2013,U S A,2013-09-27,EPI486464,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Slovenia/1613/2013,Slovenia,2013-04-15,EPI460618,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Lithuania/6530/2013,Lithuania,2013-02-25,EPI477369,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/NordPasdeCalais/1539/2013,France,2013-04-04,EPI466225,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Lithuania/6530/2013,Lithuania,2013-02-25,EPI477369,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Slovenia/1613/2013,Slovenia,2013-04-15,EPI460618,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/NordPasdeCalais/1539/2013,France,2013-04-04,EPI466225,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Lithuania/6942/2013,Lithuania,2013-03-04,EPI477377,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Lithuania/7848/2013,Lithuania,2013-03-12,EPI477379,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Lithuania/7848/2013,Lithuania,2013-03-12,EPI477379,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Lithuania/7848/2013,Lithuania,2013-03-12,EPI477379,B/Massachusetts/02/2012,2.2,2.18,1.98
+B/Johannesburg/242/2012,South Africa,2012-04-07,EPI406252,B/Massachusetts/02/2012,1.9,1.82,1.98
+B/Nordrhein-Westfalen/5/2012,Germany,2012-12-20,EPI431372,B/Massachusetts/02/2012,1.9,1.82,1.98
+B/Porto/EuroEva38/2012,Portugal,2013-01-04,EPI417757,B/Massachusetts/02/2012,1.9,1.82,1.98
+B/Ireland/12M1522/2012,Ireland,2012-06-01,EPI352461,B/Massachusetts/02/2012,2.0,1.96,1.8
+B/Johannesburg/242/2012,South Africa,2012-04-07,EPI406252,B/Massachusetts/02/2012,1.9,1.82,1.98
+B/Ireland/12M1522/2012,Ireland,2012-06-01,EPI352461,B/Massachusetts/02/2012,2.0,1.96,1.8
+B/St.Petersburg/24/2012,Russia,2012-04-13,EPI379932,B/Massachusetts/02/2012,2.0,1.96,1.8
+B/Texas/06/2011,U S A,2011-02-16,EPI331186,B/Massachusetts/02/2012,1.7,1.66,2.11
+B/Nordrhein-Westfalen/1/2010,Germany,2010-12-22,EPI305411,B/Massachusetts/02/2012,1.7,1.66,1.8
+B/Texas/06/2011,U S A,2011-02-16,EPI331186,B/Massachusetts/02/2012,1.7,1.66,2.11
+B/Bretagne/2278/2010,France,2010-12-27,EPI305377,B/Massachusetts/02/2012,1.7,1.66,1.8
+B/HongKong/2190/2010,Hong Kong,2010-11-30,EPI305391,B/Massachusetts/02/2012,1.7,1.66,1.8
+B/Florida/01/2010,U S A,2010-09-08,EPI294735,B/Massachusetts/02/2012,1.7,1.66,1.8
+B/Texas/07/2009,U S A,2009-01-29,EPI187607,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/CostaRica/5141/2009,Costa Rica,2009-06-05,EPI193064,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Managua/177.02/2008,Nicaragua,2008-11-01,EPI381601,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/SouthAustralia/204/2008,Australia,2008-10-02,EPI172356,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Brussels/G0710/2010,Belgium,2010-12-13,EPI305380,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/SouthAustralia/204/2008,Australia,2008-10-02,EPI172356,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/PERTH/8/2009,Australia,2009-03-07,EPI211752,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Valladolid/18/2008,Spain,2008-02-18,EPI211563,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Valladolid/18/2008,Spain,2008-02-18,EPI211563,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Tver/04/2008,Russia,2008-04-21,EPI162249,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Lyon/1179/2011,France,2011-03-01,EPI334664,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Johannesburg/40/2010,South Africa,2010-07-12,EPI287074,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Niedersachsen/1/2010,Germany,2010-10-18,EPI301316,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Valladolid/18/2008,Spain,2008-02-18,EPI211563,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Niedersachsen/1/2010,Germany,2010-10-18,EPI301316,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Ulaanbaatar/1798/2008,Mongolia,2008-02-15,EPI362370,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Valladolid/18/2008,Spain,2008-02-18,EPI211563,B/Massachusetts/02/2012,1.7,1.66,1.71
+B/Kol/673/2006,Unknown,2006-12-05,EPI339092,B/Massachusetts/02/2012,1.4,1.35,1.71
+B/Jeju/2787/2007,South Korea,2007-02-27,EPI155672,B/Massachusetts/02/2012,1.4,1.35,1.71
+B/Thailand/264/2007,Thailand,2007-09-14,EPI157227,B/Massachusetts/02/2012,1.4,1.35,1.71
+B/Chelyabinsk/306/2007,Russia,2007-06-04,EPI155736,B/Massachusetts/02/2012,1.4,1.35,1.71
+B/Perth/12/2007,Australia,2007-06-18,EPI161710,B/Massachusetts/02/2012,1.4,1.35,1.43
+B/Cameroon/6794/2013,Cameroon,2013-12-04,EPI517131,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Cameroon/1044/2014,Cameroon,2014-02-19,EPI543176,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Cameroon/7435/2013,Cameroon,2013-12-30,EPI515255,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Cameroon/7435/2013,Cameroon,2013-12-30,EPI515255,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Cameroon/1640/2014,Cameroon,2014-03-10,EPI540627,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Isparta/4225/2013,Turkey,2013-12-27,EPI505329,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Trabzon/29/2014,Turkey,2014-01-03,EPI505341,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Isparta/4225/2013,Turkey,2013-12-27,EPI505329,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Uganda/4456/2014,Uganda,2014-08-01,EPI586658,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Uganda/4456/2014,Uganda,2014-08-01,EPI586658,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Novosibirsk/13/2013,Russia,2013-03-28,EPI460600,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Novosibirsk/13/2013,Russia,2013-03-28,EPI460600,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Moldova/462/2013,Moldova,2013-04-10,EPI487720,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/HauteNormandie/1584/2013,France,2013-04-15,EPI466231,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/HauteNormandie/1584/2013,France,2013-04-15,EPI466231,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/HauteNormandie/1584/2013,France,2013-04-15,EPI466231,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/HauteNormandie/1584/2013,France,2013-04-15,EPI466231,B/Massachusetts/02/2012,2.4,0.32,0.25
+B/Slovenia/651/2013,Slovenia,2013-02-08,EPI460626,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Slovenia/651/2013,Slovenia,2013-02-08,EPI460626,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Slovenia/651/2013,Slovenia,2013-02-08,EPI460626,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/England/286/2013,United Kingdom,2013-02-03,EPI445939,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/England/286/2013,United Kingdom,2013-02-03,EPI445939,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Ostrava/1/2013,Czech Republic,2013-02-08,EPI460604,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Cameroon/7095/2013,Cameroon,2013-12-13,EPI515249,B/Massachusetts/02/2012,2.4,0.34,0.32
+B/Cameroon/7095/2013,Cameroon,2013-12-13,EPI515249,B/Massachusetts/02/2012,2.4,0.34,0.32
+B/Cameroon/7095/2013,Cameroon,2013-12-13,EPI515249,B/Massachusetts/02/2012,2.4,0.34,0.32
+B/Cameroon/6788/2013,Cameroon,2013-11-28,EPI515247,B/Massachusetts/02/2012,2.4,0.34,0.32
+B/Cameroon/6788/2013,Cameroon,2013-11-28,EPI515247,B/Massachusetts/02/2012,2.4,0.34,0.32
+B/HauteNormandie/1459/2013,France,2013-03-25,EPI466207,B/Massachusetts/02/2012,2.4,0.34,0.32
+B/HauteNormandie/1459/2013,France,2013-03-25,EPI466207,B/Massachusetts/02/2012,2.4,0.34,0.32
+B/Milano/44/2012,Italy,2012-12-17,EPI431364,B/Massachusetts/02/2012,2.4,0.34,0.0
+B/Milano/44/2012,Italy,2012-12-17,EPI431364,B/Massachusetts/02/2012,2.4,0.34,0.0
+B/Egypt/ALX3964/2014,Egypt,2014-01-01,EPI549760,B/Massachusetts/02/2012,2.4,0.34,0.0
+B/Mures/136729/2013,Romania,2013-03-06,EPI460598,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/SantaFe/1079/2014,U S A,2014-07-02,EPI543212,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Mures/136729/2013,Romania,2013-03-06,EPI460598,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Mures/136729/2013,Romania,2013-03-06,EPI460598,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Madagascar/03256/2013,Madagascar,2013-09-03,EPI515275,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Madagascar/03256/2013,Madagascar,2013-09-03,EPI515275,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Madagascar/03261/2013,Madagascar,2013-09-02,EPI515277,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Yokohama/82/2012,Japan,2012-12-07,EPI431415,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Yokohama/82/2012,Japan,2012-12-07,EPI431415,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Yokohama/82/2012,Japan,2012-12-07,EPI431415,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Armenia/311/2013,Armenia,2013-03-11,EPI536423,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Yokohama/82/2012,Japan,2012-12-07,EPI431415,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Armenia/311/2013,Armenia,2013-03-11,EPI536423,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/England/213/2013,United Kingdom,2013-02-04,EPI445933,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Gomel/1635/2014,Belarus,2014-05-09,EPI539422,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Gomel/1635/2014,Belarus,2014-05-09,EPI539422,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/LaReunion/2072/2014,Reunion,2014-06-21,EPI540661,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Paris/2327/2013,France,2013-11-25,EPI502585,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/Plzen/53/2013,Czech Republic,2013-03-05,EPI460610,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/Plzen/53/2013,Czech Republic,2013-03-05,EPI460610,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/Plzen/53/2013,Czech Republic,2013-03-05,EPI460610,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/Paris/2327/2013,France,2013-11-25,EPI502585,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/Plzen/53/2013,Czech Republic,2013-03-05,EPI460610,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/Belgium/S0314/2012,Belgium,2012-12-25,EPI438743,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/England/707/2012,United Kingdom,2012-12-29,EPI416455,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/England/707/2012,United Kingdom,2012-12-29,EPI416455,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/Norway/1836/2012,Norway,2012-09-07,EPI406317,B/Massachusetts/02/2012,2.4,0.29,0.0
+B/Moldova/366/2013,Moldova,2013-03-13,EPI487714,B/Massachusetts/02/2012,2.4,0.3,0.0
+B/Moldova/458/2013,Moldova,2013-04-07,EPI487718,B/Massachusetts/02/2012,2.4,0.3,0.0
+B/Moldova/458/2013,Moldova,2013-04-07,EPI487718,B/Massachusetts/02/2012,2.4,0.3,0.0
+B/HongKong/3611/2012,Hong Kong,2012-11-26,EPI431336,B/Massachusetts/02/2012,2.2,0.1,0.32
+B/NewMexico/04/2012,U S A,2012-11-26,EPI416079,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/HongKong/3611/2012,Hong Kong,2012-11-26,EPI431336,B/Massachusetts/02/2012,2.2,0.1,0.32
+B/Malta/MV14378/2013,Malta,2013-01-14,EPI438772,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/England/706/2012,United Kingdom,2012-12-17,EPI416453,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Malta/MV14117/2013,Malta,2013-01-08,EPI438769,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Malta/MV14378/2013,Malta,2013-01-14,EPI438772,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Malta/MV14519/2013,Malta,2013-01-15,EPI438778,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Malta/MV14519/2013,Malta,2013-01-15,EPI438778,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Finland/392/2014,Finland,2014-01-26,EPI533072,B/Massachusetts/02/2012,2.4,0.35,0.31
+B/Stockholm/4/2014,Sweden,2014-02-17,EPI533078,B/Massachusetts/02/2012,2.4,0.35,0.31
+B/Stockholm/4/2014,Sweden,2014-02-17,EPI533078,B/Massachusetts/02/2012,2.4,0.35,0.31
+B/Stockholm/4/2014,Sweden,2014-02-17,EPI533078,B/Massachusetts/02/2012,2.4,0.35,0.31
+B/Stockholm/4/2014,Sweden,2014-02-17,EPI533078,B/Massachusetts/02/2012,2.4,0.35,0.31
+B/Stockholm/4/2014,Sweden,2014-02-17,EPI533078,B/Massachusetts/02/2012,2.4,0.35,0.31
+B/Ostrava/59/2013,Czech Republic,2013-02-17,EPI460606,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Ostrava/59/2013,Czech Republic,2013-02-17,EPI460606,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Ostrava/59/2013,Czech Republic,2013-02-17,EPI460606,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Paris/1466/2012,France,2012-09-24,EPI416266,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Norway/3200/2013,Norway,2013-11-22,EPI503732,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Sarajevo/162/2013,Bosnia Herzegovina,2013-02-27,EPI502600,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Sarajevo/162/2013,Bosnia Herzegovina,2013-02-27,EPI502600,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Cameroon/7009/2013,Cameroon,2013-12-11,EPI517133,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Bulgaria/402/2013,Bulgaria,2013-02-20,EPI450697,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Bulgaria/608/2013,Bulgaria,2013-03-04,EPI450701,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Bulgaria/608/2013,Bulgaria,2013-03-04,EPI450701,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Bulgaria/402/2013,Bulgaria,2013-02-20,EPI450697,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Lisboa_PT/235/2013,Portugal,2013-10-29,EPI498443,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Bulgaria/608/2013,Bulgaria,2013-03-04,EPI450701,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Denmark/24/2012,Denmark,2012-11-15,EPI408049,B/Massachusetts/02/2012,2.9,0.85,0.0
+B/Denmark/26/2012,Denmark,2012-11-26,EPI408051,B/Massachusetts/02/2012,2.9,0.85,0.0
+B/Lisboa_PT/235/2013,Portugal,2013-10-29,EPI498443,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Norway/2476/2012,Norway,2012-12-10,EPI431382,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Norway/2476/2012,Norway,2012-12-10,EPI431382,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Norway/2476/2012,Norway,2012-12-10,EPI431382,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Norway/2476/2012,Norway,2012-12-10,EPI431382,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Bulgaria/348/2013,Bulgaria,2013-02-13,EPI450695,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Fukui/24/2013,Japan,2013-05-07,EPI468034,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Fukui/24/2013,Japan,2013-05-07,EPI468034,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Fukui/24/2013,Japan,2013-05-07,EPI468034,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Hawaii/01/2013,U S A,2013-05-01,EPI459710,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Hawaii/01/2013,U S A,2013-05-01,EPI459710,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Paris/1574/2013,France,2013-04-12,EPI466228,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Guyane/138/2013,French Guiana,2013-02-25,EPI465968,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Hawaii/01/2013,U S A,2013-05-01,EPI459710,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Cameroon/6302/2013,Cameroon,2013-11-09,EPI517127,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Navarra/304/2012,Spain,2012-11-12,EPI431366,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Navarra/304/2012,Spain,2012-11-12,EPI431366,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Ireland/89450/2012,Ireland,2012-11-22,EPI445953,B/Massachusetts/02/2012,2.3,0.24,0.0
+B/Ireland/90999/2012,Ireland,2012-11-25,EPI431348,B/Massachusetts/02/2012,2.3,0.24,0.0
+B/Ireland/90999/2012,Ireland,2012-11-25,EPI431348,B/Massachusetts/02/2012,2.3,0.24,0.0
+B/Ireland/90999/2012,Ireland,2012-11-25,EPI431348,B/Massachusetts/02/2012,2.3,0.24,0.0
+B/Ireland/90999/2012,Ireland,2012-11-25,EPI431348,B/Massachusetts/02/2012,2.3,0.24,0.0
+B/Picardie/1175/2013,France,2013-02-19,EPI465962,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/England/580/2012,United Kingdom,2012-10-23,EPI416699,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Malta/MV720825/2013,Malta,2013-01-15,EPI438780,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Lithuania/6663/2013,Lithuania,2013-03-02,EPI477371,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Denmark/31/2012,Denmark,2012-12-06,EPI408055,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Guatemala/260/2013,Guatemala,2013-07-11,EPI468113,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Cameroon/13V-1549GVFI/2013,Cameroon,2013-03-11,EPI477345,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Cameroon/13V-2198/2013,Cameroon,2013-04-22,EPI477347,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Cameroon/13V-3209/2013,Cameroon,2013-06-12,EPI477351,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/BuenosAires/8833/2012,Argentina,2012-08-26,EPI406238,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/BuenosAires/8833/2012,Argentina,2012-08-26,EPI406238,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/VICTORIA/525/2012,Australia,2012-07-23,EPI394416,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/VICTORIA/525/2012,Australia,2012-07-23,EPI394416,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/VICTORIA/525/2012,Australia,2012-07-23,EPI394416,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/VICTORIA/525/2012,Australia,2012-07-23,EPI394416,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Norway/1249/2012,Norway,2012-04-26,EPI406313,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Cameroon/13V-2891/2013,Cameroon,2013-05-27,EPI477349,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Stockholm/8/2012,Sweden,2012-03-06,EPI369075,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Cameroon/5643/2013,Cameroon,2013-10-09,EPI517123,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/Shanghai-Putuo/120/2013,China,2013-01-16,EPI477393,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/England/594/2012,United Kingdom,2012-10-30,EPI408065,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/England/594/2012,United Kingdom,2012-10-30,EPI408065,B/Massachusetts/02/2012,2.2,0.1,0.0
+B/HongKong/3579/2012,Hong Kong,2012-06-13,EPI392591,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/HongKong/3579/2012,Hong Kong,2012-06-13,EPI392591,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/HongKong/3579/2012,Hong Kong,2012-06-13,EPI392591,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/HongKong/3577/2012,Hong Kong,2012-06-13,EPI392589,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/HongKong/3579/2012,Hong Kong,2012-06-13,EPI392591,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Vaslui/139688/2013,Romania,2013-04-08,EPI460640,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/HongKong/3569/2012,Hong Kong,2012-06-02,EPI392587,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/HongKong/3569/2012,Hong Kong,2012-06-02,EPI392587,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Israel/1/2013,Israel,2013-01-15,EPI431350,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/HongKong/3569/2012,Hong Kong,2012-06-02,EPI392587,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Stockholm/9/2012,Sweden,2012-04-17,EPI372571,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Stockholm/9/2012,Sweden,2012-04-17,EPI372571,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Stockholm/9/2012,Sweden,2012-04-17,EPI372571,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Norway/2157/2012,Norway,2012-11-04,EPI408079,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Lorraine/1408/2012,France,2012-04-28,EPI392600,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Santiago/39712/2012,Chile,2012-06-04,EPI393652,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Santiago/39712/2012,Chile,2012-06-04,EPI393652,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Santiago/39712/2012,Chile,2012-06-04,EPI393652,B/Massachusetts/02/2012,2.3,0.21,0.0
+B/Switzerland/7659230/2012,Switzerland,2012-12-28,EPI438790,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Malta/MV14443/2013,Malta,2013-01-15,EPI438776,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Omsk/35/2013,Russia,2013-03-28,EPI460602,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Johannesburg/3166/2012,South Africa,2012-06-07,EPI406258,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Johannesburg/3009/2012,South Africa,2012-05-23,EPI406256,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Johannesburg/3009/2012,South Africa,2012-05-23,EPI406256,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/PaysdeLoire/1791/2012,France,2012-11-19,EPI431392,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Johannesburg/3009/2012,South Africa,2012-05-23,EPI406256,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Paris/1448/2012,France,2012-07-13,EPI416264,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/PaysdeLoire/1791/2012,France,2012-11-19,EPI431392,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/CHRISTCHURCH/505/2012,New Zealand,2012-07-23,EPI394428,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/CHRISTCHURCH/505/2012,New Zealand,2012-07-23,EPI394428,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/CHRISTCHURCH/505/2012,New Zealand,2012-07-23,EPI394428,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/MALAYSIA/412/2012,Malaysia,2012-05-25,EPI394452,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/MALAYSIA/412/2012,Malaysia,2012-05-25,EPI394452,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Finland/39/2010,Finland,2010-11-30,EPI305387,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Estonia/55669/2011,Estonia,2011-03-14,EPI406983,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Estonia/55669/2011,Estonia,2011-03-14,EPI406983,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Estonia/55669/2011,Estonia,2011-03-14,EPI406983,B/Massachusetts/02/2012,2.1,0.0,0.0
+B/Malmoe/1/2011,Sweden,2011-01-04,EPI309624,B/Massachusetts/02/2012,1.9,0.19,0.0
+B/Tianjin/Dagang36/2007,China,2007-10-23,EPI163161,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Mbagathi/4828/2007,Kenya,2007-04-01,EPI154897,B/Massachusetts/02/2012,1.1,1.01,0.0
+B/BRISBANE/3/2007,Australia,2007-03-09,EPI370742,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/CAPETOWN/30/2008,South Africa,2008-03-01,EPI169170,B/Massachusetts/02/2012,1.3,1.2,0.54
+B/Johannesburg/1197/2007,South Africa,2007-07-12,EPI155958,B/Massachusetts/02/2012,1.3,1.2,0.54
+B/Hawaii/02/2007,U S A,2007-08-15,EPI134358,B/Massachusetts/02/2012,1.3,1.2,0.54
+B/Hawaii/02/2007,U S A,2007-08-15,EPI134358,B/Massachusetts/02/2012,1.3,1.2,0.54
+B/Mississippi/UR06-0031/2007,U S A,2007-01-16,EPI136928,B/Massachusetts/02/2012,1.3,1.2,0.54
+B/Virginia/1/2006,U S A,2006-02-01,EPI43868,B/Massachusetts/02/2012,1.3,1.2,0.54
+B/Taiwan/79/2006,Taiwan,2006-09-27,EPI156097,B/Massachusetts/02/2012,1.2,1.14,0.54
+B/Waikato/1/2006,New Zealand,2006-05-24,EPI483100,B/Massachusetts/02/2012,1.3,1.2,0.54
+B/Lyon/1291/2007,France,2007-11-04,EPI163093,B/Massachusetts/02/2012,1.2,1.14,0.54
+B/Taiwan/79/2006,Taiwan,2006-09-27,EPI156097,B/Massachusetts/02/2012,1.2,1.14,0.54
+B/Sydney/204/2006,Australia,2006-08-14,EPI478164,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/HongKong/441/2007,Hong Kong,2007-05-10,EPI162930,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Mauritius/481/2007,Mauritius,2007-07-09,EPI347328,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Sydney/204/2006,Australia,2006-08-14,EPI478164,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Sydney/204/2006,Australia,2006-08-14,EPI478164,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Taiwan/69/2004,Taiwan,2004-05-01,EPI110518,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Macau/131/2004,Macau,2004-02-16,EPI117600,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Taiwan/69/2004,Taiwan,2004-05-01,EPI110518,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Macau/131/2004,Macau,2004-02-16,EPI117600,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Macau/131/2004,Macau,2004-02-16,EPI117600,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Christchurch/4/2005,New Zealand,2005-02-19,EPI478087,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Trieste/23/2005,Italy,2005-12-01,EPI119844,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Indonesia/5527/2004,Indonesia,2004-03-05,EPI157072,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/ElSalvador/324/2006,El Salvador,2006-07-26,EPI156947,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Taiwan/142/2005,Taiwan,2005-01-26,EPI117519,B/Massachusetts/02/2012,1.3,1.18,0.54
+B/Taiwan/13/2004,Taiwan,2004-06-01,EPI110520,B/Massachusetts/02/2012,1.3,1.18,0.54
+B/Taiwan/16/2004,Taiwan,2004-11-01,EPI110546,B/Massachusetts/02/2012,1.3,1.18,0.54
+B/SRILANKA/4/2006,Sri Lanka,2006-01-01,EPI417412,B/Massachusetts/02/2012,1.1,1.01,0.65
+B/Brisbane/5/2004,Australia,2004-09-23,EPI482216,B/Massachusetts/02/2012,1.1,1.01,0.82
+B/Brisbane/13/2004,Australia,2004-09-28,EPI482232,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Florida/7/2004,U S A,2004-07-01,EPI159954,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Townsville/1/2003,Australia,2003-07-03,EPI481888,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/NewJersey/NHRC0001/2005,U S A,2005-05-16,EPI338057,B/Massachusetts/02/2012,1.1,1.01,0.54
+B/Victoria/509/2004,Australia,2004-09-23,EPI482224,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Oslo/71/2004,Norway,2004-01-01,EPI13605,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Nebraska/5/2003,U S A,2003-10-01,EPI43624,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Florida/7/2004,U S A,2004-07-01,EPI159954,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Milano/66/2004,Italy,2004-04-01,EPI13769,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Nebraska/5/2003,U S A,2003-10-01,EPI43624,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Florida/7/2004,U S A,2004-07-01,EPI159954,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Brazil/2452/2008,Brazil,2008-05-05,EPI161782,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Brazil/2452/2008,Brazil,2008-05-05,EPI161782,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Argentina/622/2006,Argentina,2006-10-17,EPI155148,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Johannesburg/439/2006,South Africa,2006-06-18,EPI123937,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Christchurch/33/2004,New Zealand,2004-08-30,EPI482000,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Johannesburg/439/2006,South Africa,2006-06-18,EPI123937,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/NewYork/47/2001,U S A,2001-10-01,EPI15338,B/Massachusetts/02/2012,1.0,1.13,0.54
+B/Taiwan/52/2004,Taiwan,2004-05-01,EPI110542,B/Massachusetts/02/2012,1.9,2.09,1.21
+B/Taiwan/635/2005,Taiwan,2005-03-01,EPI110530,B/Massachusetts/02/2012,1.2,1.37,1.21
+B/Taiwan/635/2005,Taiwan,2005-03-01,EPI110530,B/Massachusetts/02/2012,1.2,1.37,1.21
+B/Taiwan/81/2005,Taiwan,2005-03-01,EPI110528,B/Massachusetts/02/2012,1.2,1.37,1.21
+B/Victoria/508/2004,Australia,2004-09-10,EPI484869,B/Massachusetts/02/2012,1.2,1.37,1.21
+B/Victoria/508/2004,Australia,2004-09-10,EPI484869,B/Massachusetts/02/2012,1.2,1.37,1.21
+B/Ningbo/1199/2004,China,2004-10-25,EPI165758,B/Massachusetts/02/2012,1.2,1.37,1.21
+B/Taiwan/165/2005,Taiwan,2005-01-01,EPI110560,B/Massachusetts/02/2012,1.2,1.37,1.49
+B/Soligorsk/140/2007,Belarus,2007-02-12,EPI155683,B/Massachusetts/02/2012,1.0,1.18,0.63
+B/Brisbane/4/2004,Australia,2004-09-11,EPI482047,B/Massachusetts/02/2012,1.0,1.18,0.54
+B/Bangkok/460/2003,Thailand,2003-06-01,EPI13611,B/Massachusetts/02/2012,1.0,1.18,0.54
+B/Taiwan/102/2005,Taiwan,2005-11-01,EPI110506,B/Massachusetts/02/2012,1.0,1.18,1.49
+B/Taiwan/43/2005,Taiwan,2005-01-01,EPI110508,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Taiwan/43/2005,Taiwan,2005-01-01,EPI110508,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Jinlin/20/2003,China,2003-04-01,EPI157092,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Jinlin/20/2003,China,2003-04-01,EPI157092,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Jinlin/20/2003,China,2003-04-01,EPI157092,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Jilin/20/2003,China,2003-05-01,EPI159930,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Finland/231/2003,Finland,2003-12-01,EPI25203,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Finland/231/2003,Finland,2003-12-01,EPI25203,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Finland/231/2003,Finland,2003-12-01,EPI25203,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/HongKong/309/2003,Hong Kong,2003-02-26,EPI157011,B/Massachusetts/02/2012,1.0,1.18,1.21
+B/Malaysia/24651/2003,Malaysia,2003-03-31,EPI374335,B/Massachusetts/02/2012,1.0,1.13,1.21
+B/Hiroshima/23/2001,Japan,2001-04-01,EPI1051,B/Massachusetts/02/2012,0.3,1.76,0.54
+B/Gangwon/192/2002,South Korea,2002-04-02,EPI156960,B/Massachusetts/02/2012,1.0,1.13,1.21
+B/Victoria/341/2002,Australia,2002-05-08,EPI481840,B/Massachusetts/02/2012,1.0,1.13,1.21
+B/Genoa/56/2002,Italy,2002-06-01,EPI17919,B/Massachusetts/02/2012,1.0,1.13,1.21
+B/Kobe/87/2001,Japan,2001-10-01,EPI419,B/Massachusetts/02/2012,1.0,1.13,1.21
+B/Taiwan/97271/2001,Taiwan,2001-12-10,EPI157221,B/Massachusetts/02/2012,0.3,1.76,0.54
+B/Hiroshima/23/2001,Japan,2001-04-01,EPI1051,B/Massachusetts/02/2012,0.3,1.76,0.54
+B/Osaka/1201/2000,Japan,2000-05-01,EPI311,B/Massachusetts/02/2012,0.3,1.76,1.21
+B/Osaka/1201/2000,Japan,2000-05-01,EPI311,B/Massachusetts/02/2012,0.3,1.76,1.21
+B/Osaka/1201/2000,Japan,2000-05-01,EPI311,B/Massachusetts/02/2012,0.3,1.76,1.21
+B/Yamagata/K515/2001,Japan,2001-04-01,EPI927,B/Massachusetts/02/2012,0.3,1.76,1.21
+B/Kadoma/506/1999,Zimbabwe,1999-03-01,EPI315,B/Massachusetts/02/2012,0.3,1.77,0.95
+B/Beijing/76/1998,China,1998-02-01,EPI24801,B/Massachusetts/02/2012,0.3,1.77,1.49
+B/Hong_Kong/65/1996,Hong Kong,1996-04-01,EPI4531,B/Massachusetts/02/2012,0.3,1.77,1.21
+B/Hong_Kong/65/1996,Hong Kong,1996-04-01,EPI4531,B/Massachusetts/02/2012,0.3,1.77,1.21
+B/Nanchang/20/1996,China,1996-07-01,EPI20734,B/Massachusetts/02/2012,0.3,1.77,1.21
+B/Yamagata/K354/2001,Japan,2001-01-01,EPI909,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Yamagata/K521/2001,Japan,2001-09-01,EPI933,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Genoa/5/2002,Italy,2002-12-01,EPI236445,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Trieste/09/2002,Italy,2002-10-01,EPI119826,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Trieste/09/2002,Italy,2002-10-01,EPI119826,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Trieste/09/2002,Italy,2002-10-01,EPI119826,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Trieste/09/2002,Italy,2002-10-01,EPI119826,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Genoa/48/2002,Italy,2002-09-01,EPI236443,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Quebec/1/2001,Canada,2001-11-01,EPI12471,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Quebec/7/2001,Canada,2001-07-01,EPI12481,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Kobe/79/2001,Japan,2001-10-01,EPI415,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Quebec/8/2001,Canada,2001-08-01,EPI12483,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Quebec/6/2001,Canada,2001-12-01,EPI12479,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Shizuoka/15/2001,Japan,2001-08-01,EPI1053,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Shizuoka/15/2001,Japan,2001-08-01,EPI1053,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Shizuoka/15/2001,Japan,2001-08-01,EPI1053,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Shizuoka/15/2001,Japan,2001-08-01,EPI1053,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Egypt/907137/2000,Egypt,2000-10-12,EPI156938,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Quebec/4/2001,Canada,2001-10-01,EPI12477,B/Massachusetts/02/2012,1.0,3.05,1.66
+B/Quebec/4/2001,Canada,2001-10-01,EPI12477,B/Massachusetts/02/2012,1.0,3.05,1.66
+B/Houston/B66/2000,U S A,2000-03-10,EPI50245,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Kobe/69/2001,Japan,2001-06-01,EPI413,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Texas/1/2000,U S A,2000-09-01,EPI15316,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/BuenosAires/161/2000,Argentina,2000-04-01,EPI11268,B/Massachusetts/02/2012,1.0,3.05,1.17
+B/MardelPlata/595/1999,Argentina,1999-02-01,EPI11260,B/Massachusetts/02/2012,1.0,3.05,1.38
+B/Sichuan/379/1999,China,1999-05-01,EPI116951,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Castro/6880/2000,Unknown,2000-07-12,EPI156899,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Brazil/16/2000,Brazil,2000-02-22,EPI156867,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/NewCaledonia/1/1999,New Caledonia,1999-07-28,EPI116935,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/NewYork/1022/2000,U S A,2000-12-29,EPI517978,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Kadoma/409/2000,Zimbabwe,2000-05-01,EPI313,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Quebec/452/1998,Canada,1998-04-01,EPI12495,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Kadoma/409/2000,Zimbabwe,2000-05-01,EPI313,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Christchurch/6/1999,New Zealand,1999-12-01,EPI116939,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/England/615/1998,United Kingdom,1998-09-12,EPI314878,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Christchurch/6/1999,New Zealand,1999-12-01,EPI116939,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Christchurch/6/1999,New Zealand,1999-12-01,EPI116939,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Zagreb/3578/1999,Croatia,1999-10-01,EPI157274,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Zagreb/3578/1999,Croatia,1999-10-01,EPI157274,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Finland/84/2002,Finland,2002-03-01,EPI25193,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Kadoma/122/1999,Zimbabwe,1999-03-01,EPI437,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Kadoma/122/1999,Zimbabwe,1999-03-01,EPI437,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Shiga/T30/1998,Japan,1998-11-01,EPI5182,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Shiga/T30/1998,Japan,1998-11-01,EPI5182,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/NewYork/1020/1999,U S A,1999-11-01,EPI517962,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Yamagata/K520/2001,Japan,2001-12-01,EPI931,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Yamagata/K501/2001,Japan,2001-07-01,EPI921,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Yamagata/K501/2001,Japan,2001-07-01,EPI921,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/HongKong/110/1999,Hong Kong,1999-08-01,EPI9020,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Malaysia/13367/1997,Malaysia,1997-08-06,EPI374263,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Bangkok/269/1999,Thailand,1999-09-13,EPI116941,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Bangkok/269/1999,Thailand,1999-09-13,EPI116941,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Quebec/173/1998,Canada,1998-12-01,EPI12501,B/Massachusetts/02/2012,1.2,3.32,1.07
+B/Yamanashi/166/1998,Japan,1998-06-01,EPI116551,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Houston/B65/1998,U S A,1998-05-04,EPI49998,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Quebec/465/1998,Canada,1998-01-01,EPI12503,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Yamanashi/166/1998,Japan,1998-06-01,EPI116551,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Lisboa/3/1997,Portugal,1997-06-01,EPI127598,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Lisboa/2/1997,Portugal,1997-12-01,EPI127596,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Lisboa/2/1997,Portugal,1997-12-01,EPI127596,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Argentina/113/2000,Argentina,2000-08-09,EPI158332,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Argentina/218/1997,Argentina,1997-05-01,EPI5174,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Fatick/27/1997,Unknown,1997-10-13,EPI347349,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Netherlands/1/1997,Netherlands,1997-07-01,EPI6659,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Houston/B63/1997,U S A,1997-03-05,EPI50097,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Houston/B63/1997,U S A,1997-03-05,EPI50097,B/Massachusetts/02/2012,1.2,3.32,1.38
+B/Scotland/18/1997,United Kingdom,1997-01-04,EPI314869,B/Massachusetts/02/2012,0.6,2.72,1.38
+B/Lusaka/432/1999,Zambia,1999-01-01,EPI390,B/Massachusetts/02/2012,0.3,2.41,1.38
+B/Lusaka/270/1999,Zambia,1999-01-01,EPI371,B/Massachusetts/02/2012,0.3,2.41,1.38
+B/England/362/1996,United Kingdom,1996-12-11,EPI314866,B/Massachusetts/02/2012,0.3,2.41,1.38
+B/Malaysia/10928/1996,Malaysia,1996-10-05,EPI374223,B/Massachusetts/02/2012,0.3,2.41,1.38
+B/Wellington/1/1996,New Zealand,1996-08-01,EPI4487,B/Massachusetts/02/2012,0.3,2.41,1.38
+B/Singapore/21/1998,Singapore,1998-07-20,EPI116943,B/Massachusetts/02/2012,0.3,2.41,1.38
+B/Singapore/11/1995,Singapore,1995-11-01,EPI347353,B/Massachusetts/02/2012,0.3,2.41,1.38
+B/England/296/1996,United Kingdom,1996-11-14,EPI314864,B/Massachusetts/02/2012,0.3,2.41,1.06
+B/Russia/222/1995,Russia,1995-10-01,EPI4513,B/Massachusetts/02/2012,0.3,2.41,1.06
+B/England/296/1996,United Kingdom,1996-11-14,EPI314864,B/Massachusetts/02/2012,0.3,2.41,1.06
+B/Argentina/4105/1995,Argentina,1995-12-01,EPI4567,B/Massachusetts/02/2012,0.0,2.09,1.21
