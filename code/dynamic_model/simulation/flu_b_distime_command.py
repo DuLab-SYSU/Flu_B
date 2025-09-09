@@ -73,7 +73,7 @@ dict_by_size = {by_key: by_val for _, _, by_key, _, _, by_val in results}
 # In[4]:
 
 
-# 转换为 DataFrame
+# trasfer to DataFrame
 df_bv_time = pd.DataFrame.from_dict(dict_bv_time, orient='index', columns=['extinction_time'])
 df_bv_time.reset_index(inplace=True)
 df_bv_time.rename(columns={'index': 'combination'}, inplace=True)
