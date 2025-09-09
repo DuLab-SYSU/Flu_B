@@ -1,9 +1,0 @@
-NOTICE
-
-This folder is part of the repository for the manuscript "Unraveling the mechanism behind the potential extinction of the B/Yamagata lineage of influenza B viruses."
-
-At this time, only the structure of the data or placeholder/example files are included. The complete dataset used in the study has been withheld temporarily due to the manuscript being under review.
-
-All relevant data will be made publicly available upon publication of the article.
-
-Thank you for your understanding.
