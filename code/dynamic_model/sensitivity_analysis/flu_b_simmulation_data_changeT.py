@@ -109,11 +109,11 @@ def dz_dt(z, t, tv_c, ty_c, w_v, w_y, R0_v, R0_y, D, ksi, Lv, Ly, omega, cv, cy,
     lambda_y = kappa * (R0_y / D) * sea_y * (Iy + ksi * Jy) / N
 
     # escape population
-    esp_pct_v1 = jnp.where(((t - immue_esp_vt1) <= 40.) & ((t - immue_esp_vt1) >= 0.), immue_esp_pct_v1, 0)
-    esp_pct_v2 = jnp.where(((t - immue_esp_vt2) <= 40.) & ((t - immue_esp_vt2) >= 0.), immue_esp_pct_v2, 0)
-    esp_pct_v3 = jnp.where(((t - immue_esp_vt3) <= 40.) & ((t - immue_esp_vt3) >= 0.), immue_esp_pct_v3, 0)
-    esp_pct_y1 = jnp.where(((t - immue_esp_yt1) <= 40.) & ((t - immue_esp_yt1) >= 0.), immue_esp_pct_y1, 0)
-    esp_pct_y2 = jnp.where(((t - immue_esp_yt2) <= 40.) & ((t - immue_esp_yt2) >= 0.), immue_esp_pct_y2, 0)
+    esp_pct_v1 = jnp.where(((t - immue_esp_vt1) <= 27.) & ((t - immue_esp_vt1) >= 0.), immue_esp_pct_v1, 0)
+    esp_pct_v2 = jnp.where(((t - immue_esp_vt2) <= 27.) & ((t - immue_esp_vt2) >= 0.), immue_esp_pct_v2, 0)
+    esp_pct_v3 = jnp.where(((t - immue_esp_vt3) <= 27.) & ((t - immue_esp_vt3) >= 0.), immue_esp_pct_v3, 0)
+    esp_pct_y1 = jnp.where(((t - immue_esp_yt1) <= 27.) & ((t - immue_esp_yt1) >= 0.), immue_esp_pct_y1, 0)
+    esp_pct_y2 = jnp.where(((t - immue_esp_yt2) <= 27.) & ((t - immue_esp_yt2) >= 0.), immue_esp_pct_y2, 0)
 
     # differential equations
     dS_dt = -lambda_v * S - lambda_y * S + (Rv / Lv) + (Ry / Ly) + esp_pct_v1 * Rv + esp_pct_v2 * Rv + esp_pct_v3 * Rv + esp_pct_y1 * Ry + esp_pct_y2 * Ry - import_v - import_y 
