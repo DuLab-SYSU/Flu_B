@@ -1,5 +1,5 @@
 # Code and Data for  
-**Unraveling the Mechanism Behind the Potential Extinction of the B/Yamagata Lineage of Influenza B Viruses**
+**Unraveling the mechanism behind the probable extinction of the B/Yamagata lineage of influenza B viruses**
 
 This repository contains the code and datasets required to reproduce the results presented in the manuscript.
 
