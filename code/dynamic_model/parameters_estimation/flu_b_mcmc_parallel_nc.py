@@ -123,11 +123,11 @@ def dz_dt(z, t, w_v, w_y, R0_v, R0_y, D, ksi, Lv, Ly, omega, cv, cy, immue_esp_p
     lambda_y = kappa * (R0_y / D) * sea_y * (Iy + ksi * Jy) / N
 
     # escape population
-    esp_pct_v1 = jnp.where((jnp.abs(t - immue_esp_vt1) <= 1.), immue_esp_pct_v1, 0)
-    esp_pct_v2 = jnp.where((jnp.abs(t - immue_esp_vt2) <= 1.), immue_esp_pct_v2, 0)
-    esp_pct_v3 = jnp.where((jnp.abs(t - immue_esp_vt3) <= 1.), immue_esp_pct_v3, 0)
-    esp_pct_y1 = jnp.where((jnp.abs(t - immue_esp_yt1) <= 1.), immue_esp_pct_y1, 0)
-    esp_pct_y2 = jnp.where((jnp.abs(t - immue_esp_yt2) <= 1.), immue_esp_pct_y2, 0)
+    # esp_pct_v1 = jnp.where((jnp.abs(t - immue_esp_vt1) <= 27.), immue_esp_pct_v1, 0)
+    # esp_pct_v2 = jnp.where((jnp.abs(t - immue_esp_vt2) <= 27.), immue_esp_pct_v2, 0)
+    # esp_pct_v3 = jnp.where((jnp.abs(t - immue_esp_vt3) <= 27.), immue_esp_pct_v3, 0)
+    # esp_pct_y1 = jnp.where((jnp.abs(t - immue_esp_yt1) <= 27.), immue_esp_pct_y1, 0)
+    # esp_pct_y2 = jnp.where((jnp.abs(t - immue_esp_yt2) <= 27.), immue_esp_pct_y2, 0)
     
     # differential equations
     dS_dt = -lambda_v * S - lambda_y * S + (Rv / Lv) + (Ry / Ly) + esp_pct_v1 * Rv + esp_pct_v2 * Rv + esp_pct_v3 * Rv + esp_pct_y1 * Ry + esp_pct_y2 * Ry - import_v - import_y  
@@ -221,14 +221,14 @@ def flub_model(M, w_v_mean, w_y_mean,
     # fixed parameters
     mu = float(0.0098/52)
     npi_start = 218.
-    npi_end = 285.
+    npi_end = 301.
     npi_intensity = 1.
     T = float(52.)
     immue_esp_vt1 = float(101)
     immue_esp_vt2 = float(205)
-    immue_esp_vt3 = float(310)
+    immue_esp_vt3 = float(309)
     immue_esp_yt1 = float(205)
-    immue_esp_yt2 = float(310) 
+    immue_esp_yt2 = float(260)
     immue_esp_pct_v3 = 0.2
     immue_esp_pct_y1 = 0.
     immue_esp_pct_y2 = 0.
