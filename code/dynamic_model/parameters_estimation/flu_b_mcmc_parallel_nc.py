@@ -123,11 +123,11 @@ def dz_dt(z, t, w_v, w_y, R0_v, R0_y, D, ksi, Lv, Ly, omega, cv, cy, immue_esp_p
     lambda_y = kappa * (R0_y / D) * sea_y * (Iy + ksi * Jy) / N
 
     # escape population
-    # esp_pct_v1 = jnp.where((jnp.abs(t - immue_esp_vt1) <= 27.), immue_esp_pct_v1, 0)
-    # esp_pct_v2 = jnp.where((jnp.abs(t - immue_esp_vt2) <= 27.), immue_esp_pct_v2, 0)
-    # esp_pct_v3 = jnp.where((jnp.abs(t - immue_esp_vt3) <= 27.), immue_esp_pct_v3, 0)
-    # esp_pct_y1 = jnp.where((jnp.abs(t - immue_esp_yt1) <= 27.), immue_esp_pct_y1, 0)
-    # esp_pct_y2 = jnp.where((jnp.abs(t - immue_esp_yt2) <= 27.), immue_esp_pct_y2, 0)
+    esp_pct_v1 = jnp.where((jnp.abs(t - immue_esp_vt1) <= 1.), immue_esp_pct_v1, 0)
+    esp_pct_v2 = jnp.where((jnp.abs(t - immue_esp_vt2) <= 1.), immue_esp_pct_v2, 0)
+    esp_pct_v3 = jnp.where((jnp.abs(t - immue_esp_vt3) <= 1.), immue_esp_pct_v3, 0)
+    esp_pct_y1 = jnp.where((jnp.abs(t - immue_esp_yt1) <= 1.), immue_esp_pct_y1, 0)
+    esp_pct_y2 = jnp.where((jnp.abs(t - immue_esp_yt2) <= 1.), immue_esp_pct_y2, 0)
     
     # differential equations
     dS_dt = -lambda_v * S - lambda_y * S + (Rv / Lv) + (Ry / Ly) + esp_pct_v1 * Rv + esp_pct_v2 * Rv + esp_pct_v3 * Rv + esp_pct_y1 * Ry + esp_pct_y2 * Ry - import_v - import_y  
@@ -151,7 +151,7 @@ def dz_dt(z, t, w_v, w_y, R0_v, R0_y, D, ksi, Lv, Ly, omega, cv, cy, immue_esp_p
 # In[4]:
 
 
-def flub_model(M, w_v_mean, w_y_mean, 
+def flub_model(M, R0_v_mean, R0_y_mean, w_v_mean, w_y_mean, 
                cv_mean, cy_mean, tv_0_mean, ty_0_mean, r_mean,
                S_rate_ini_mean, Rcv_rate_ini_mean, Rcy_rate_ini_mean, 
                Rv_rate_ini_mean, Ry_rate_ini_mean, R_rate_ini_mean, 
@@ -204,31 +204,31 @@ def flub_model(M, w_v_mean, w_y_mean,
     z_init  = jnp.array([S_ini, Iv_ini, Iy_ini, Rcv_ini, Rcy_ini, Rv_ini, Ry_ini, Jv_ini, Jy_ini, R_ini, 0.0, 0.0])
 
     # unfixed parameters
-    R0_v  = 1.3
-    R0_y  = 1.2
-    # R0_v  = numpyro.sample("R0_v", dist.TruncatedNormal(low=1.0, high=3.0, loc=R0_v_mean, scale=0.02))
-    # R0_y  = numpyro.sample("R0_y", dist.TruncatedNormal(low=1.0, high=3.0, loc=R0_y_mean, scale=0.02))
+    # R0_v  = 1.3
+    # R0_y  = 1.2
+    R0_v  = numpyro.sample("R0_v", dist.TruncatedNormal(low=1.26, high=3.0, loc=R0_v_mean, scale=0.02))
+    R0_y  = numpyro.sample("R0_y", dist.TruncatedNormal(low=1.0, high=1.25, loc=R0_y_mean, scale=0.02))
     w_v   = numpyro.sample("w_v", dist.TruncatedNormal(low=0.01, high=1.0, loc=w_v_mean, scale=0.02))
     w_y   = numpyro.sample("w_y", dist.TruncatedNormal(low=0.01, high=1.0, loc=w_y_mean, scale=0.02))
     cv    = numpyro.sample("cv", dist.TruncatedNormal(low=0.01, high=1.0, loc=cv_mean, scale=0.02))
     cy    = numpyro.sample("cy", dist.TruncatedNormal(low=0.01, high=1.0, loc=cy_mean, scale=0.02))
     tv_0    = numpyro.sample("tv_0", dist.TruncatedNormal(low=12., high=22., loc=tv_0_mean, scale=0.2))
     ty_0    = numpyro.sample("ty_0", dist.TruncatedNormal(low=12., high=22., loc=ty_0_mean, scale=0.2))
-    r = numpyro.sample("r", dist.TruncatedNormal(low=0.01, high=1., loc=r_mean, scale=0.02))
+    # r = numpyro.sample("r", dist.TruncatedNormal(low=0.01, high=1., loc=r_mean, scale=0.02))
     immue_esp_pct_v1 = 0.
     immue_esp_pct_v2 = 0.
     
     # fixed parameters
     mu = float(0.0098/52)
     npi_start = 218.
-    npi_end = 301.
+    npi_end = 285.
     npi_intensity = 1.
     T = float(52.)
     immue_esp_vt1 = float(101)
     immue_esp_vt2 = float(205)
-    immue_esp_vt3 = float(309)
+    immue_esp_vt3 = float(310)
     immue_esp_yt1 = float(205)
-    immue_esp_yt2 = float(260)
+    immue_esp_yt2 = float(310) 
     immue_esp_pct_v3 = 0.2
     immue_esp_pct_y1 = 0.
     immue_esp_pct_y2 = 0.
@@ -263,19 +263,22 @@ def flub_model(M, w_v_mean, w_y_mean,
     inf_hat_y = jnp.diff(z[:,11])
     
     # params of NB distribution
-    confirmed_dispersion = numpyro.sample("confirmed_dispersion", 
-                                          dist.TruncatedNormal(low=0.01, loc=0.3, scale=0.15))
-    
+    confirmed_dispersion_v = numpyro.sample("confirmed_dispersion_v", dist.TruncatedNormal(low=0.01, loc=0.3, scale=0.15))
+    confirmed_dispersion_y = numpyro.sample("confirmed_dispersion_y", dist.TruncatedNormal(low=0.01, loc=0.3, scale=0.15))
+
+    det_prob_v = numpyro.sample("det_prob_v", dist.TruncatedNormal(low=0.01, high=1., loc=r_mean, scale=0.02))
+    det_prob_y = numpyro.sample("det_prob_y", dist.TruncatedNormal(low=0.01, high=1., loc=r_mean, scale=0.02))
+
     # measured populations (in log scale)
-    observe_nb2("inf_hat_v", inf_hat_v, r, confirmed_dispersion, obs=y[0])
-    observe_nb2("inf_hat_y", inf_hat_y, r, confirmed_dispersion, obs=y[1])
+    observe_nb2("inf_hat_v", inf_hat_v, det_prob_v, confirmed_dispersion_v, obs=y[0])
+    observe_nb2("inf_hat_y", inf_hat_y, det_prob_y, confirmed_dispersion_y, obs=y[1])
 
 
 # In[5]:
 
 
 # import surveillence data
-data = pd.read_csv(r"../../data/flu_incidence_us.csv", index_col = 0)
+data = pd.read_csv(r"../../../data/surveillance/flu_incidence_us.csv", index_col = 0)
 data['Victoria_IR'] = data['ILI%'] * data['positive_rate'] * data['Victoria_proporation'] * 100000
 data['Yamagata_IR'] = data['ILI%'] * data['positive_rate'] * data['Yamagata_proporation'] * 100000
 data['Victoria_IR_rolling'] = data['Victoria_IR'].rolling(window=4).mean().round()
@@ -311,7 +314,8 @@ def step_time(step):
 # In[8]:
 
 
-def param_estimate(w_v_value, w_y_value, 
+def param_estimate(R0_v_value, R0_y_value,
+                   w_v_value, w_y_value, 
                    cv_value, cy_value, tv_0_value, ty_0_value, r_value,
                    S_rate_ini_value, Rcv_rate_ini_value, Rcy_rate_ini_value, 
                    Rv_rate_ini_value, Ry_rate_ini_value, R_rate_ini_value,
@@ -331,6 +335,7 @@ def param_estimate(w_v_value, w_y_value,
     )
     key = jax.random.PRNGKey(0)
     mcmc.run(key, M=y_v.shape[0], 
+             R0_v_mean=R0_v_value, R0_y_mean=R0_y_value,
              w_v_mean=w_v_value, w_y_mean=w_y_value, 
              cv_mean=cv_value, cy_mean=cy_value,
              tv_0_mean=tv_0_value, ty_0_mean=ty_0_value, 
@@ -341,8 +346,9 @@ def param_estimate(w_v_value, w_y_value,
              R_rate_ini_mean=R_rate_ini_value, 
              y=[y_v, y_y])
     # params
-    params_orign = ['w_v', 'w_y', 'cv', 'cy', 
-                   'tv_0', 'ty_0', 'r',
+    params_orign = ['R0_v', 'R0_y', 'w_v', 'w_y', 'cv', 'cy', 
+                   'tv_0', 'ty_0', 'det_prob_v', 'det_prob_y',
+                   'confirmed_dispersion_v', 'confirmed_dispersion_y', 
                    'S_rate_ini', 'Rcv_rate_ini', 'Rcy_rate_ini', 
                    'Rv_rate_ini', 'Ry_rate_ini', 'R_rate_ini']
     
@@ -410,6 +416,7 @@ def param_estimate(w_v_value, w_y_value,
 
     # fitting plot
     ss = Predictive(flub_model, mcmc_samples)(key, M=y_v.shape[0], 
+             R0_v_mean=R0_v_value, R0_y_mean=R0_y_value,
              w_v_mean=w_v_value, w_y_mean=w_y_value, 
              cv_mean=cv_value, cy_mean=cy_value,
              tv_0_mean=tv_0_value, ty_0_mean=ty_0_value, 
@@ -610,16 +617,16 @@ def param_estimate(w_v_value, w_y_value,
 # In[9]:
 
 
-param_estimate(  
-               w_v_value=float(sys.argv[1]), w_y_value=float(sys.argv[2]), 
-               cv_value=float(sys.argv[3]), cy_value=float(sys.argv[4]), 
-               tv_0_value=float(sys.argv[5]), ty_0_value=float(sys.argv[6]),
-               r_value=float(sys.argv[7]),
-               S_rate_ini_value=float(sys.argv[8]), 
-               Rcv_rate_ini_value=float(sys.argv[9]), Rcy_rate_ini_value=float(sys.argv[10]), 
-               Rv_rate_ini_value=float(sys.argv[11]), Ry_rate_ini_value=float(sys.argv[12]),
-               R_rate_ini_value=float(sys.argv[13]),
-               file_name=sys.argv[14])
+param_estimate(R0_v_value=float(sys.argv[1]), R0_y_value=float(sys.argv[2]),  
+               w_v_value=float(sys.argv[3]), w_y_value=float(sys.argv[4]), 
+               cv_value=float(sys.argv[5]), cy_value=float(sys.argv[6]), 
+               tv_0_value=float(sys.argv[7]), ty_0_value=float(sys.argv[8]),
+               r_value=float(sys.argv[9]),
+               S_rate_ini_value=float(sys.argv[10]), 
+               Rcv_rate_ini_value=float(sys.argv[11]), Rcy_rate_ini_value=float(sys.argv[12]), 
+               Rv_rate_ini_value=float(sys.argv[13]), Ry_rate_ini_value=float(sys.argv[14]),
+               R_rate_ini_value=float(sys.argv[15]),
+               file_name=sys.argv[16])
 
 
 # In[10]:

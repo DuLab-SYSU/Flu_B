@@ -23,8 +23,8 @@ start_time = time.time()
 
 
 def run_script(params):
-    param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12, param13, param14 = params
-    command = ["python", "flu_b_mcmc_parallel_nc.py", param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12, param13, param14]
+    param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12, param13, param14, param15, param16 = params
+    command = ["python", "flu_b_mcmc_parallel_nc.py", param1, param2, param3, param4, param5, param6, param7, param8, param9, param10, param11, param12, param13, param14, param15, param16]
     subprocess.run(command)
 
 
@@ -40,6 +40,8 @@ np.random.seed(42)
 
 # prior distribution
 params = {
+    'R0_v': [1.26, 3.0],
+    'R0_y': [1.00, 1.25],
     'w_v': [0.01, 0.99],
     'w_y': [0.01, 0.99],
     'cv': [0.01, 0.95],
@@ -89,12 +91,12 @@ for i, sublist in enumerate(samples):
 # import prior samples
 # samples = samples[:1000].copy()
 df = pd.DataFrame(samples)
-df.columns = ['w_v', 'w_y', 'cv', 'cy', 
+df.columns = ['R0_v', 'R0_y', 'w_v', 'w_y', 'cv', 'cy', 
               'tv_0', 'ty_0', 'r',
               'S_rate_ini', 'Rcv_rate_ini', 'Rcy_rate_ini', 
               'Rv_rate_ini', 'Ry_rate_ini', 'R_rate_ini', 
               'group']
-df.to_csv(r"./result/fluB/prior_samples.csv", index=False)
+df.to_csv(r"./result/fluB/prior_samples1.csv", index=False)
 
 
 # In[9]:
@@ -103,7 +105,7 @@ df.to_csv(r"./result/fluB/prior_samples.csv", index=False)
 if __name__ == "__main__":
     params_list = samples
     
-    with Pool(processes=23) as pool: 
+    with Pool(processes=13) as pool: 
         pool.map(run_script, params_list)
 
 # end time 
