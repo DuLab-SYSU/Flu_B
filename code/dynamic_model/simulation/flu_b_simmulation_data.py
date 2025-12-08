@@ -145,7 +145,7 @@ def dz_dt(z, t, w_v, w_y, R0_v, R0_y, D, ksi, Lv, Ly, omega, cv, cy, immue_esp_p
 
 
 # import surveillence data
-data = pd.read_csv(r"../../../data/flu_incidence_us.csv", index_col = 0)
+data = pd.read_csv(r"../../../data/surveillance/flu_incidence_us.csv", index_col = 0)
 data['Victoria_IR'] = data['ILI%'] * data['positive_rate'] * data['Victoria_proporation'] * 100000
 data['Yamagata_IR'] = data['ILI%'] * data['positive_rate'] * data['Yamagata_proporation'] * 100000
 data['Victoria_IR_rolling'] = data['Victoria_IR'].rolling(window=4).mean().round()
