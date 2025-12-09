@@ -1,0 +1,89 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2024/1/8 下午2:51
+# @Author  : Hanwenjie
+# @project : code
+# @File    : BVcross_Ngly_update.py
+# @IDE     : PyCharm
+# @REMARKS : 说明文字
+import matplotlib.pyplot as plt
+import pandas as pd
+import math
+import numpy as np
+import os
+from os import path
+import re
+import Levenshtein
+from tqdm import tqdm
+from pandarallel import pandarallel
+from Bio import SeqIO
+pandarallel.initialize(nb_workers=20, progress_bar=True)
+
+df_virus = pd.read_csv(r'../../../../data/sequence/features_related/BV_sample_update.csv',index_col=0)
+
+with open(r'../../../../data/sequence/features_related/BVHA1_Ngly_update.txt') as f:
+	lines = f.readlines()
+
+df_gly = pd.DataFrame()
+i = 0
+for line in lines:
+	if len(re.findall(r'[+]',line.rstrip())) != 0:
+		content = line.rstrip().split()
+		# print(content)
+		df_gly.loc[i,'num'] = content[0]
+		df_gly.loc[i,'gly_position'] = content[1]
+		i+=1
+
+df_gly = df_gly.groupby('num')
+
+vir_dict = {}
+for group in df_gly:
+	gly_list = list(group[1].gly_position)
+	vir_dict[group[0]] = gly_list
+
+# print(vir_dict)
+print(len(vir_dict))
+
+dict_copy1 = vir_dict.copy()
+for key in dict_copy1.keys():
+    # print(key)
+    if len(str(key)) > 4:
+        del vir_dict[key]
+# print(vir_dict['3870'])
+# print(len(vir_dict))
+
+dict_copy1 = vir_dict.copy()
+for num, pos in dict_copy1.items():
+    orign_new = {}
+    seq = df_virus.loc[int(num)-1,'seq']
+    n_gap = 0
+    for i in range(len(seq)):
+        if seq[i] == '-':
+            n_gap+=1
+        if seq[i] != '-':
+            orign_new[str(i+1)] = str(i+1-n_gap)
+
+    new_orign = dict([val, key] for key, val in orign_new.items())
+    orign_pos = [new_orign[i] for i in pos]
+    vir_dict[num] = orign_pos
+# print(vir_dict['3870'])
+
+def gly_diff(vir1,vir2):
+    list1 = vir_dict[vir1] 
+    list2 = vir_dict[vir2] 
+    num_diff = len(list1) + len(list2) - (2*len(set(list1)&set(list2))) 
+    return num_diff
+
+
+
+df = pd.read_csv(r'../../../../data/result/BVHA1_predictdata_update.csv',index_col=0)
+
+
+df['virus1_num'] = df['virus1_num'].astype('str')
+df['virus2_num'] = df['virus2_num'].astype('str')
+
+df['x_Nglycosylation'] = df.parallel_apply(lambda row: gly_diff(row['virus1_num'],row['virus2_num']),axis=1)
+print(df['x_Nglycosylation'].value_counts())
+
+
+df.to_csv(r'./../../../data/result/BVHA1_predictdata_update.csv')
+
